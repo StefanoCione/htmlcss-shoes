@@ -10,6 +10,8 @@ body {
     font-family: 'Rubix Mono One', sans-serif;
 }
 
+html {}
+
 /* Utils */
 .container {
     max-width: 1200px;
@@ -66,6 +68,7 @@ body {
     font-size: 15px;
     color: black;
     border-radius: 50%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 
