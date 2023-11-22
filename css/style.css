@@ -16,6 +16,14 @@ body {
     margin: 0 auto;
 }
 
+.item-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .border {
     border: 1px dashed white;
 }
@@ -56,8 +64,13 @@ body {
     position: relative;
 }
 
-.content {
-    color: #FFFF00;
-    position: absolute;
-    top
+.title {
+    font-size: 50px;
 }
+
+.yellow {
+    color: yellow;
+}
+
+
+
