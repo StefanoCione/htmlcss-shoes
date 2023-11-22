@@ -24,6 +24,18 @@ body {
     height: 100%;
 }
 
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
 .border {
     border: 1px dashed white;
 }
@@ -60,9 +72,9 @@ body {
 /* !main */
 .full-page {
     height: 100vh;
-    background-color: red;
     position: relative;
 }
+
 
 .title {
     font-size: 50px;
@@ -72,5 +84,8 @@ body {
     color: yellow;
 }
 
+.green {
+    color: green;
+}
 
 
