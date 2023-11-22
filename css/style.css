@@ -16,8 +16,48 @@ body {
     margin: 0 auto;
 }
 
-/* !header */
+.border {
+    border: 1px dashed white;
+}
+
+/* !nav */
+.nav-menu {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    margin: 15px 0;
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    border-radius: 50%;
+}
 
 
 /* !main */
+.full-page {
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
 
+.content {
+    color: #FFFF00;
+    position: absolute;
+    top
+}
