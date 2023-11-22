@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: hidden;
+}
+
 /* Generics */
 body {
     font-family: 'Rubix Mono One', sans-serif;
 }
 
-html {}
+
 
 /* Utils */
 .container {
